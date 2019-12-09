@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Microsoft Word</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>CHANNEL</key>
+		<string>Production</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>Microsoft WordSmartGroupTemplate.xml</string>
+		<key>LOCALE_ID</key>
+		<string>1033</string>
+		<key>NAME</key>
+		<string>Microsoft Word</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>PRODUCT</key>
+		<string>Word2016</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft Word is a popular and powerful word processing app.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Microsoft Word.png</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.MicrosoftWord</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOfficeMacURLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>094aa70b45bcafbfd1deb19681ccc26ecdefe5e8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacURLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>1e1430c5954db45eb7efbf7b8896c2735708beb9ff5c29f6b4284703ad49506e</string>
+			</dict>
+			<key>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e3b24f9e864769e5f44c16e0a399429bda5feced</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/MSOffice2016VersionChecker/MSOffice2016VersionChecker.py</string>
+				<key>sha256_hash</key>
+				<string>00fd51cf2ab24fec60b448ee683ec8ddf1e800502a8255b429547819b8de7cda</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSOfficeMacProduct</key>
+			<dict>
+				<key>git_hash</key>
+				<string>36b466cfbe427644a1ff15325d2ea03a8f1bff74</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacProduct.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>dbd29b031c13b27c27c49b5bee031f29a7884c1859f8247b055b77c5afcc001c</string>
+			</dict>
+			<key>com.github.autopkg.download.MSWord2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>36b466cfbe427644a1ff15325d2ea03a8f1bff74</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSWord2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>45a6260edfe17f32c3ca04e8a348a7cd1bb14d4c3487acd7c5107bfadfd08775</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.MicrosoftWord</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2290200d4df3840495255f7fefefc2a81097bc9b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Microsoft Word/Microsoft Word.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>45d3b09a66c1ae72b8264927708e6e5b7addda2d2f99a75b6cd42612875c40c5</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
